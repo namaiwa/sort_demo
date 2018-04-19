@@ -32,6 +32,6 @@ class Ilist(object):
 
 
 if __name__ == '__main__':
-    slist = Ilist([1, 13, 5, 12, 4, 8, 15, 6, 23, 7, 5, 3, 2])
-    slist.insert_sort()
-    print(slist)
+    _list = Ilist([1, 13, 5, 12, 4, 8, 15, 6, 23, 7, 5, 3, 2])
+    _list.insert_sort()
+    print(_list)

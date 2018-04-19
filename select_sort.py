@@ -23,6 +23,6 @@ class Slist(object):
 
 
 if __name__ == '__main__':
-    slist = Slist([1, 13, 5, 12, 4, 8, 15, 6, 23, 7, 5, 3, 2])
-    slist.select_sort()
-    print(slist)
+    _list = Slist([1, 13, 5, 12, 4, 8, 15, 6, 23, 7, 5, 3, 2])
+    _list.select_sort()
+    print(_list)

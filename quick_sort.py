@@ -29,6 +29,6 @@ class Qlist(object):
 
 
 if __name__ == '__main__':
-    slist = Qlist([13, 1, 5, 12, 4, 8, 15, 6, 23, 7, 5, 3, 2])
-    slist.quick_sort(0, len(slist.l)-1)
-    print(slist)
+    _list = Qlist([13, 1, 5, 12, 4, 8, 15, 6, 23, 7, 5, 3, 2])
+    _list.quick_sort(0, len(_list.l)-1)
+    print(_list)

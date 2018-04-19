@@ -25,6 +25,6 @@ class Blist(object):
 
 
 if __name__ == '__main__':
-    slist = Blist([1, 13, 5, 12, 4, 8, 5, 6, 23, 7, 5, 3, 2])
-    slist.bubble_sort()
-    print(slist)
+    _list = Blist([1, 13, 5, 12, 4, 8, 5, 6, 23, 7, 5, 3, 2])
+    _list.bubble_sort()
+    print(_list)
